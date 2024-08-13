@@ -3,8 +3,14 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./routes/root";
-import ErrorPage from "./routes/error-page";
-import { Bake } from "./routes/bake";
+import ErrorPage from "./routes/Error-page";
+import { SweetsRoute } from "./routes/SweetsRoute";
+import { HomeRoute } from "./routes/HomeRoute";
+import { FoodRoute } from "./routes/FoodRoute";
+import { BreadRoute } from "./routes/BreadRoute";
+import { PastryRoute } from "./routes/PastryRoute";
+import { SidesRoute } from "./routes/SidesRoute";
+import { RecipeInstruction } from "./components/RecipeInstruction";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +19,32 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "Bake",
-        element: <Bake />,
+        index: true,
+        element: <HomeRoute />,
+      },
+      {
+        path: "sweets",
+        element: <SweetsRoute />,
+      },
+      {
+        path: "food",
+        element: <FoodRoute />,
+      },
+      {
+        path: "bread",
+        element: <BreadRoute />,
+      },
+      {
+        path: "pastry",
+        element: <PastryRoute />,
+      },
+      {
+        path: "sides",
+        element: <SidesRoute />,
+      },
+      {
+        path: "recipes/:recipeId",
+        element: <RecipeInstruction />,
       },
     ],
   },

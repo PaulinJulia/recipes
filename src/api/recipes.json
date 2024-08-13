@@ -1,0 +1,32 @@
+[
+  {
+    "id": "111",
+    "name": "Muffins",
+    "description": "Små enkla muffins."
+  },
+  {
+    "id": "222",
+    "name": "Chokladbollar",
+    "description": "Klassiska chokladbollar"
+  },
+  {
+    "id": "333",
+    "name": "Rabarberssaft",
+    "description": "Rårörd läskande rabarbersaft"
+  },
+  {
+    "id": "444",
+    "name": "Tigerkaka",
+    "description": "En blandning av choklad och sockerkaka"
+  },
+  {
+    "id": "555",
+    "name": "Mammas paj",
+    "description": "Skinka och svamp",
+    "history": "Min mamma Ingegerd pajrecept.",
+    "time": "ca 15 min, förgrädda",
+    "portions": "1 paj",
+    "ingredients": ["3 dl vetemjöl", "100 gr smör/margarin", "3msk kallt vatten", "1 lök, hackad och stekt, glansig", "1 bit skinka", "1 burk champ. brynta", "3 ägg", "3dl gräddmjölk", "en klick vitlöksost", "riven ost, tex prästost", "1 krm svartpeppar", "1 krm salt"],
+    "method": "Förgrädda skalet i 200 grader i ca 15 min."
+  }
+]
