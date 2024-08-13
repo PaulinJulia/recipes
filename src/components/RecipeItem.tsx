@@ -6,8 +6,7 @@ export const RecipeItem = ({ recipe, onSelected }: RecipeItemProps) => {
 
   const handleSelected = () => {
     if (!selected) {
-      onSelected(recipe.id, recipe.name, recipe.description);
-      console.log(recipe.id);
+      onSelected(recipe.id);
     }
     setSelected(!selected);
   };

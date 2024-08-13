@@ -6,7 +6,7 @@ import { Recipe } from "../types/types";
 export const HomeRoute = () => {
   const navigate = useNavigate();
 
-  const onSelected = (id: string, name: string, description: string) => {
+  const onSelected = (id: string) => {
     navigate(`recipes/${id}`);
   };
 
@@ -24,11 +24,6 @@ export const HomeRoute = () => {
           );
         })}
       </ul>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-        reprehenderit maxime quibusdam iste expedita ab quis impedit non aut eum
-        consectetur, doloremque earum libero amet nemo at mollitia est ratione?
-      </p>
     </>
   );
 };

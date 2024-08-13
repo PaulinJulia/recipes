@@ -5,17 +5,26 @@ export const RecipeInstruction = () => {
   const { recipeId } = useParams();
 
   const recipe = recipes.find((recipe) => recipe.id === recipeId);
-  console.log(recipe);
   if (!recipe) {
     console.log("Opps! inget recept hittades");
-    alert("Opps, inget recept hittades!")
+    alert("Opps, inget recept hittades!");
+    return null;
   }
 
   return (
     <>
-      <h2></h2>
-      <p>Ingredienser och Gör så här:</p>
-      <div>Recept Id: {recipeId}</div>
+      <h2>{recipe.name}</h2>
+      <p>{recipe.description}</p>
+      <p>{recipe.history}</p>
+      <p>{recipe.time}</p>
+      <p>Ingredienser</p>
+      <ul>
+        {recipe.ingredients.map((ingredient) => (
+          <li key={ingredient}>{ingredient}</li>
+        ))}
+      </ul>
+      <p>Gör så här:</p>
+      <p>{recipe.method}</p>
     </>
   );
 };

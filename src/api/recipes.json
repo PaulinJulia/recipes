@@ -1,32 +1,125 @@
 [
   {
     "id": "111",
+    "category": "sweets",
     "name": "Muffins",
-    "description": "Små enkla muffins."
+    "description": "Små enkla muffins.",
+    "history": "Ett av min första recept.",
+    "time": "200 grader, ca 12 min",
+    "portions": "ca 12 st",
+    "ingredients": [
+      "1 ägg",
+      "1 dl socker",
+      "½ dl mjölk",
+      "50 gr smör/margarin",
+      "1 ½ dl vetemjöl",
+      "1 tsk bakpulver",
+      "1 tsk vaniljsocker",
+      "1 msk kakao"
+    ],
+    "method": "Rör samman ägg och socker, smält smöret/margarinet och häll i tillsammans med mjölk och vetemjöl, backpulver, vaniljsocker och kakao. Grädda mitt i ugnen, 200 grader i ca 12 min."
   },
   {
     "id": "222",
+    "category": "sweets",
     "name": "Chokladbollar",
-    "description": "Klassiska chokladbollar"
+    "description": "Klassiska chokladbollar",
+    "history": "Recept från havregrynsförpackningen.",
+    "time": "",
+    "portions": "ca 24st",
+    "ingredients": [
+      "100 gr smör/margarin",
+      "1 dl socker",
+      "1 dl havregryn",
+      "2 msk kakao",
+      "1 tsk vaniljsocker",
+      "2 msk kallt kaffe"
+    ],
+    "method": "Arbeta samman matfettet med övriga ingredienser till en jämn smet. Forma till bollar och rulla i kokos eller pärlsocker. Ställ dem svalt."
   },
   {
     "id": "333",
+    "category": "sides",
     "name": "Rabarberssaft",
-    "description": "Rårörd läskande rabarbersaft"
+    "description": "Rårörd läskande rabarbersaft",
+    "history": "Mammas rabarbersaft.",
+    "time": "",
+    "portions": "satsen ger ca 5 liter",
+    "ingredients": [
+      "3 kg rabarber",
+      "2 citroner",
+      "3,25 l kokande vatten",
+      "2,5 kg socker",
+      "30 g citronsyra(1 ½ påse)",
+      "1 krm natriumbensoat"
+    ],
+    "method": "Skölj rabarbern och skär dem i bitar. Skär citronerna i skivor. Blanda rabarbern och citronerna i en rymlig rostfri bunke. Slå över det kokande vattnet. Låt stå två dygn och sila sedan ifrån. Rör ner sockret lite i taget och tillsätt de andra ingredienserna."
   },
   {
     "id": "444",
+    "category": "sweets",
     "name": "Tigerkaka",
-    "description": "En blandning av choklad och sockerkaka"
+    "description": "En blandning av choklad och sockerkaka",
+    "history": "Ett recept som jag bakat som liten.",
+    "time": "175 grader, ca 50 min",
+    "portions": "1 form",
+    "ingredients": [
+      "200 g smör/margarin",
+      "2 ½ dl socker",
+      "3 ägg",
+      "4 dl vetemjöl",
+      "1 tsk bakpulver",
+      "1 dl grädde eller mjölk",
+      "2 msk kakao",
+      "1 msk vaniljsocker"
+    ],
+    "method": "Rör matfett(inte smält) och socker poröst. Blanda ner ett ägg i taget under fortsatt omrörning. Tillsätt mjölet blandat med bakpulvret och vätskan. Lägg ungefär 1/3 av smeten i en skål och blanda ner kakaon. Smaksätt den ljusa smeten med vaniljsockert. Häll ett lager ljus smet i en smord och bröad kransform, ca 1 ½ liter, och sedan den mörka smeten och resten av den ljusa, dra med en gaffel genom smeten så att den färdiga kakan blir marmorerad. Grädda på första falsen nerifrån i 175 graders ugnsvärme i ca 50 min."
   },
   {
     "id": "555",
+    "category": "food",
     "name": "Mammas paj",
     "description": "Skinka och svamp",
     "history": "Min mamma Ingegerd pajrecept.",
-    "time": "ca 15 min, förgrädda",
+    "time": "200 grader, ca 15 min + 25 min",
     "portions": "1 paj",
-    "ingredients": ["3 dl vetemjöl", "100 gr smör/margarin", "3msk kallt vatten", "1 lök, hackad och stekt, glansig", "1 bit skinka", "1 burk champ. brynta", "3 ägg", "3dl gräddmjölk", "en klick vitlöksost", "riven ost, tex prästost", "1 krm svartpeppar", "1 krm salt"],
-    "method": "Förgrädda skalet i 200 grader i ca 15 min."
+    "ingredients": [
+      "3 dl vetemjöl",
+      "100 gr smör/margarin",
+      "3 msk kallt vatten",
+      "1 lök, hackad och stekt, glansig",
+      "1 bit skinka",
+      "1 burk champ. brynta",
+      "3 ägg",
+      "3 dl gräddmjölk",
+      "en klick vitlöksost",
+      "riven ost, tex prästost",
+      "1 krm svartpeppar",
+      "1 krm salt"
+    ],
+    "method": "Blanda vetemjöl och smör i en bunke. Tillsätt vattnet och blanda snabbt till en deg. Tryck ut degen i en pajform. Låt vila svalt i minst 30 min. Förgrädda skalet i 200 grader i ca 15 min. Exempel på fyllning är lök, skinka och svamp. Äggstanning, blanda ägg, mjölk, svartpeppar och salt. Riv osten och fördela över pajen. Grädda mitt i ugnen på 200 grader i ca 25 min."
+  },
+  {
+    "id": "666",
+    "category": "sweets",
+    "name": "Pepparkakor",
+    "description": "De absolut godaste pepparkakorna.",
+    "history": "Ett gammalt favoritrecept som kräver våg.",
+    "time": "175-200 grader, ca 7 min",
+    "portions": "",
+    "ingredients": [
+      "212 gr smör",
+      "425 gr socker",
+      "2 ägg",
+      "1 kkp sirap, gärna mörk(1 ½ dl)",
+      "1 tsk nejlikor",
+      "1 tsk ingefära",
+      "1 tsk kryddpeppar",
+      "2 tsk pommerans",
+      "6-7 hg vetemjöl, börja med 6 hg",
+      "2 tsk bikarbonat",
+      "1 tsk kanel"
+    ],
+    "method": "Blanda samman alla ingredienserna och se till att inte kryddorna hamnar på samma ställe. Förvara i kylen."
   }
 ]
