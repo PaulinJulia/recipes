@@ -4,7 +4,6 @@ export const PastryRoute = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div>
         <h1>Tårtor och bakverk route</h1>
         <h2>Bakverk</h2>
         <p>
@@ -13,7 +12,6 @@ export const PastryRoute = () => {
           mollitia exercitationem nulla, autem eligendi natus ab id doloremque
           esse dicta harum quisquam odit.
         </p>
-      </div>
     </>
   );
 };

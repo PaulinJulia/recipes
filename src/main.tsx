@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import Root from "./routes/root";
-import ErrorPage from "./routes/Error-page";
+import RootRoute from "./routes/RootRoute";
+import ErrorRoute from "./routes/ErrorRoute";
 import { SweetsRoute } from "./routes/SweetsRoute";
 import { HomeRoute } from "./routes/HomeRoute";
 import { FoodRoute } from "./routes/FoodRoute";
@@ -15,8 +15,8 @@ import { RecipeInstruction } from "./components/RecipeInstruction";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
+    element: <RootRoute />,
+    errorElement: <ErrorRoute />,
     children: [
       {
         index: true,
@@ -44,6 +44,10 @@ const router = createBrowserRouter([
       },
       {
         path: "recipes/:recipeId",
+        element: <RecipeInstruction />,
+      },
+      {
+        path: "sweets/:recipeId",
         element: <RecipeInstruction />,
       },
     ],

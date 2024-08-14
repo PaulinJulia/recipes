@@ -1,13 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import style from "./RootRoute.module.css";
 
-
-export default function Root() {
-
+export default function RootRoute() {
   return (
     <>
       <header>
         <nav>
-          <ul>
+          <ul className={style["link-wrapper"]}>
             <li>
               <Link to="/sweets">Kakor</Link>
             </li>
@@ -26,10 +25,12 @@ export default function Root() {
           </ul>
         </nav>
         <Link to="/">
-          <h1>Guldkornen</h1>
+          <h1 className={style["title"]}>Guldkornen</h1>
         </Link>
-        <h2>En receptsamling över flera generationer.</h2>
-        <form>
+        <h2 className={style["title-description"]}>
+          En receptsamling över flera generationer.
+        </h2>
+        <form className={style["search-form"]}>
           <label htmlFor="search"> </label>
           <input type="search" name="search" placeholder="Sök recept" />
           <button>Sök</button>

@@ -1,0 +1,28 @@
+.card-item {
+  margin: 1rem;
+  padding: 1rem;
+  list-style: none;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  cursor: pointer;
+}
+.recipe-image {
+  min-height: 200px;
+  min-width: 180px;
+  background-color: var(--off-white);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.recipe-name {
+  background-color: var(--white);
+  text-transform: capitalize;
+}
+
+.recipe-description {
+  background-color: var(--white);
+}

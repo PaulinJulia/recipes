@@ -12,7 +12,6 @@ export const HomeRoute = () => {
 
   return (
     <>
-      <h1>Startsida</h1>
       <ul>
         {recipes.map((recipe: Recipe) => {
           return (

@@ -4,7 +4,6 @@ export const BreadRoute = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div>
         <h1>Bröd route</h1>
         <h2>Frallor till grova bröd</h2>
         <p>
@@ -13,7 +12,6 @@ export const BreadRoute = () => {
           mollitia exercitationem nulla, autem eligendi natus ab id doloremque
           esse dicta harum quisquam odit.
         </p>
-      </div>
     </>
   );
 };

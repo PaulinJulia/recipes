@@ -1,14 +1,20 @@
 import { useNavigate } from "react-router-dom";
 import recipes from "../api/recipes.json";
+import { RecipeItem } from "../components/RecipeItem";
+import { Recipe } from "../types/types";
 
 export const SweetsRoute = () => {
   const navigate = useNavigate();
-  const sweetsRecipes = recipes.filter((recipe) => recipe.category === "sweets");
-  console.log(sweetsRecipes);
+  const sweetsRecipes = recipes.filter(
+    (recipe) => recipe.category === "sweets"
+  );
+
+  const onSelected = (id: string) => {
+    navigate(`/sweets/${id}`);
+  };
 
   return (
     <>
-      <div>
         <h1>Kakor route</h1>
         <h2>Kakor och annat gott</h2>
         <p>
@@ -18,11 +24,16 @@ export const SweetsRoute = () => {
           esse dicta harum quisquam odit.
         </p>
         <ul>
-          {sweetsRecipes.map((sweetsRecipe) => (
-            <li key={sweetsRecipe.id}>{sweetsRecipe.name}</li>
-          ))}
+          {sweetsRecipes.map((recipe: Recipe) => {
+            return (
+              <RecipeItem
+                key={recipe.id}
+                recipe={recipe}
+                onSelected={onSelected}
+              />
+            );
+          })}
         </ul>
-      </div>
     </>
   );
 };

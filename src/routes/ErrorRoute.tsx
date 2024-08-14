@@ -1,6 +1,6 @@
 import { useRouteError, ErrorResponse, Link } from "react-router-dom";
 
-export default function ErrorPage() {
+export default function ErrorRoute() {
   const error = useRouteError();
   console.error(error);
 
@@ -14,7 +14,7 @@ export default function ErrorPage() {
             (error as ErrorResponse).message}
         </i>
       </p>
-      <Link to={"/"}>Return</Link>
+      <Link to={"/"}>Tillbaka till startsida</Link>
     </main>
   );
 }
