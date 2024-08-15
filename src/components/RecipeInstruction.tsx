@@ -19,12 +19,25 @@ export const RecipeInstruction = () => {
       <p>{recipe.time}</p>
       <p>Ingredienser</p>
       <ul>
-        {recipe.ingredients.map((ingredient) => (
-          <li key={ingredient}>{ingredient}</li>
+        {recipe.ingredientsOne.map((ingredientsOne) => (
+          <li key={ingredientsOne}>{ingredientsOne}</li>
+        ))}
+      </ul>
+      <br />
+      <ul>
+        {recipe.ingredientsTwo?.map((ingredientsTwo) => (
+          <li key={ingredientsTwo}>{ingredientsTwo}</li>
+        ))}
+      </ul>
+      <br />
+      <ul>
+        {recipe.ingredientsThree?.map((ingredientsThree) => (
+          <li key={ingredientsThree}>{ingredientsThree}</li>
         ))}
       </ul>
       <p>Gör så här:</p>
-      <p>{recipe.method}</p>
+      <p>{recipe.methodOne}</p>
+      <p>{recipe.methodTwo}</p>
     </>
   );
 };

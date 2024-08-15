@@ -5,7 +5,7 @@
   --sand-brown:#b68051;
   --dusty-yellow:#d4b950;
   --grey-white: rgb(233, 232, 232);
-  --white: rgb(242, 238, 238);
+  --white: rgb(248, 244, 244);
   --black: rgb(25, 24, 24);
 }
 
@@ -14,6 +14,7 @@
   padding: 0;
   font-family: sans-serif;
   background-color: var(--grey-white);
+  color: var(--black);
 }
 
 main {
@@ -22,6 +23,10 @@ main {
   align-items: center;
   width: 100%;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* .container {

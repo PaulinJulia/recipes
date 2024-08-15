@@ -14,8 +14,7 @@ export const SweetsRoute = () => {
   };
 
   return (
-    <>
-        <h1>Kakor route</h1>
+    <main>
         <h2>Kakor och annat gott</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
@@ -34,6 +33,6 @@ export const SweetsRoute = () => {
             );
           })}
         </ul>
-    </>
+    </main>
   );
 };

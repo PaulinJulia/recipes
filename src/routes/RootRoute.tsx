@@ -36,13 +36,19 @@ export default function RootRoute() {
           <button>Sök</button>
         </form>
       </header>
-      <main>
-        <div id="detail">
-          <Outlet />
-        </div>
-      </main>
+      <div id="detail">
+        <Outlet />
+      </div>
       <footer>
-        <div>Här är foten</div>
+        <ul className={style["social-media"]}>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>LinkedIn</li>
+        </ul>
+        <div className={style["contact"]}>
+          <p>Om Guldkornen</p>
+          <p>Kontakta oss</p>
+        </div>
       </footer>
     </>
   );

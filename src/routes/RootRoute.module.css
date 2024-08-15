@@ -9,7 +9,6 @@
 
 .link-wrapper a {
   padding: 0.5rem;
-  text-decoration: none;
   color: var(--black);
 }
 
@@ -19,6 +18,9 @@
 
 .title {
   text-align: center;
+  color: var(--dusty-yellow);
+  text-shadow: rgb(255, 229, 125) 1px 0 10px;
+  font-size: 3rem;
 }
 
 .title-description {
@@ -33,4 +35,28 @@
   justify-content: center;
   align-items: center;
   border: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 1rem;
+}
+.social-media > li {
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+.contact > p {
+  cursor: pointer;
+  padding: 0.5rem;
 }

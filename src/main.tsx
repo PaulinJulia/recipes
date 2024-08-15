@@ -31,8 +31,16 @@ const router = createBrowserRouter([
         element: <FoodRoute />,
       },
       {
+        path: "food/:recipeId",
+        element: <RecipeInstruction />,
+      },
+      {
         path: "bread",
         element: <BreadRoute />,
+      },
+      {
+        path: "bread/:recipeId",
+        element: <RecipeInstruction />,
       },
       {
         path: "pastry",
@@ -41,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: "sides",
         element: <SidesRoute />,
+      },
+      {
+        path: "sides/:recipeId",
+        element: <RecipeInstruction />,
       },
       {
         path: "recipes/:recipeId",

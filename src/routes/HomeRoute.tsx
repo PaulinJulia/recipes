@@ -11,7 +11,7 @@ export const HomeRoute = () => {
   };
 
   return (
-    <>
+    <main>
       <ul>
         {recipes.map((recipe: Recipe) => {
           return (
@@ -23,6 +23,6 @@ export const HomeRoute = () => {
           );
         })}
       </ul>
-    </>
+    </main>
   );
 };
