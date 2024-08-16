@@ -2,7 +2,7 @@
   {
     "id": "1",
     "category": "sweets",
-    "imageUrl": "",
+    "imageUrl": "/images/sweets.jpg",
     "name": "Muffins",
     "description": "Små enkla muffins.",
     "history": "Ett av min första recept.",
@@ -22,8 +22,30 @@
   },
   {
     "id": "2",
+    "category": "pastry",
+    "imageUrl": "/images/pastry.jpg",
+    "name": "Våfflor",
+    "description": "Ödestugans frasiga våfflor",
+    "history": "Mamma som hittat detta utmärkta recept ur Land och omvandlat från 45 laggar till 10 laggar.",
+    "time": "",
+    "portions": "ca 10-11 laggar",
+    "ingredientsOne": [
+      "5 dl vetemjöl",
+      "2 tsk bakpulver",
+      "2 ½ msk socker",
+      "1 knapp tsk salt(4krm)",
+      "2,5 dl mjölk",
+      "2,5 dl vatten",
+      "2 ägg",
+      "125 gr margarin/smör"
+    ],
+    "methodOne": "Rör först ihop alla torra ingredienserna i en skål. Blanda sedan i vatten, mjölk samt äggen(kanske utvispade i lite av mjölken) och sist matfettet. Gör smeten kvällen före och låt stå i kylen under natten för bästa resultat. Servera våfflorna med vispgrädde och jordgubbssylt.",
+    "methodTwo": "Tips: Det går utmärkt att frysa överbliven smet."
+  },
+  {
+    "id": "3",
     "category": "sweets",
-    "imageUrl": "",
+    "imageUrl": "/images/sweets.jpg",
     "name": "Chokladbollar",
     "description": "Klassiska chokladbollar",
     "history": "Recept från havregrynsförpackningen.",
@@ -40,9 +62,9 @@
     "methodOne": "Arbeta samman matfettet med övriga ingredienser till en jämn smet. Forma till bollar och rulla i kokos eller pärlsocker. Ställ dem svalt."
   },
   {
-    "id": "3",
+    "id": "4",
     "category": "sides",
-    "imageUrl": "",
+    "imageUrl": "/images/sides.jpg",
     "name": "Rabarberssaft",
     "description": "Rårörd läskande rabarbersaft",
     "history": "Mammas rabarbersaft.",
@@ -59,9 +81,9 @@
     "methodOne": "Skölj rabarbern och skär dem i bitar. Skär citronerna i skivor. Blanda rabarbern och citronerna i en rymlig rostfri bunke. Slå över det kokande vattnet. Låt stå två dygn och sila sedan ifrån. Rör ner sockret lite i taget och tillsätt de andra ingredienserna."
   },
   {
-    "id": "4",
+    "id": "5",
     "category": "sweets",
-    "imageUrl": "",
+    "imageUrl": "/images/sweets.jpg",
     "name": "Tigerkaka",
     "description": "En blandning av choklad och sockerkaka",
     "history": "Ett recept som jag bakat som liten.",
@@ -80,12 +102,12 @@
     "methodOne": "Rör matfett(inte smält) och socker poröst. Blanda ner ett ägg i taget under fortsatt omrörning. Tillsätt mjölet blandat med bakpulvret och vätskan. Lägg ungefär 1/3 av smeten i en skål och blanda ner kakaon. Smaksätt den ljusa smeten med vaniljsockert. Häll ett lager ljus smet i en smord och bröad kransform, ca 1 ½ liter, och sedan den mörka smeten och resten av den ljusa, dra med en gaffel genom smeten så att den färdiga kakan blir marmorerad. Grädda på första falsen nerifrån i 175 graders ugnsvärme i ca 50 min."
   },
   {
-    "id": "5",
+    "id": "6",
     "category": "food",
-    "imageUrl": "",
+    "imageUrl": "/images/food.jpg",
     "name": "Mammas paj",
     "description": "Skinka och svamp",
-    "history": "Min mamma Ingegerd pajrecept.",
+    "history": "Min mammas pajrecept.",
     "time": "200 grader, ca 15 min + 25 min",
     "portions": "1 paj",
     "ingredientsOne": [
@@ -109,9 +131,9 @@
     "methodOne": "Blanda vetemjöl och smör i en bunke. Tillsätt vattnet och blanda snabbt till en deg. Tryck ut degen i en pajform. Låt vila svalt i minst 30 min. Förgrädda skalet i 200 grader i ca 15 min. Exempel på fyllning är lök, skinka och svamp. Äggstanning, blanda ägg, mjölk, svartpeppar och salt. Riv osten och fördela över pajen. Grädda mitt i ugnen på 200 grader i ca 25 min."
   },
   {
-    "id": "6",
+    "id": "7",
     "category": "sweets",
-    "imageUrl": "",
+    "imageUrl": "/images/sweets.jpg",
     "name": "Pepparkakor",
     "description": "De absolut godaste pepparkakorna.",
     "history": "Ett gammalt favoritrecept som kräver våg.",
@@ -133,9 +155,9 @@
     "methodOne": "Blanda samman alla ingredienserna och se till att inte kryddorna hamnar på samma ställe. Förvara i kylen."
   },
   {
-    "id": "7",
+    "id": "8",
     "category": "food",
-    "imageUrl": "",
+    "imageUrl": "/images/food.jpg",
     "name": "Kyckling på Kinesiskt vis",
     "description": "Såsig kyckling wok.",
     "history": "",
@@ -157,12 +179,12 @@
       "ev cayennepeppar"
     ],
     "ingredientsThree": ["½ l kallt vatten", "1 ½ msk Maizenamjöl"],
-    "methodOne": "Rör ihop marinaden. SKär kycklingen i bitar och rör ner dem i marinaden. Låt dra ca 10 min. Stek wokgrönsakerna, häll i kycklingbitarna och marinaden och låt dem steka med under omrörning några minuter. Blanda ihop vatten och maizena till såsen och häll blandningen i pannnan under omrörning. Hetta upp under fortsatt omrörning tills såsen tjocknat något. Samaka av. Strö gärna över lite hackade valnötter, sesamfrön och servera med ris/nuddlar."
+    "methodOne": "Rör ihop marinaden. Skär kycklingen i bitar och rör ner dem i marinaden. Låt dra ca 10 min. Stek wokgrönsakerna, häll i kycklingbitarna och marinaden och låt dem steka med under omrörning några minuter. Blanda ihop vatten och maizena till såsen och häll blandningen i pannnan under omrörning. Hetta upp under fortsatt omrörning tills såsen tjocknat något. Smaka av. Strö gärna över lite hackade valnötter, sesamfrön och servera med ris/nuddlar."
   },
   {
-    "id": "8",
+    "id": "9",
     "category": "food",
-    "imageUrl": "",
+    "imageUrl": "/images/food.jpg",
     "name": "Lasagne",
     "description": "Inga konstigheter bara lasagne",
     "history": "",
@@ -188,9 +210,9 @@
     "methodTwo": "Lasagne: Smörj en form, varva mjölksås, plattor och köttfärssås i 3-4 lager + riven ost. Tillaga 225 grader, 25 min med folie + 15 min utan folie."
   },
   {
-    "id": "9",
+    "id": "10",
     "category": "bread",
-    "imageUrl": "",
+    "imageUrl": "/images/bread.jpg",
     "name": "Pappas Gjutjärnsbröd",
     "description": "Enkel gott bröd som kräver lite omtanke",
     "history": "",
@@ -208,9 +230,9 @@
     "methodTwo": "Till en mindre gryta kan man ta 3,5 dl vatten och 7-7,5 dl vetemjöl, och så minska lite på de andra sorterna."
   },
   {
-    "id": "10",
+    "id": "11",
     "category": "sides",
-    "imageUrl": "",
+    "imageUrl": "/images/sides.jpg",
     "name": "Råkostsallad",
     "description": "Kålsallad som funkar till allt",
     "history": "",
@@ -231,6 +253,46 @@
       "1 tsk italiensk salladskrydda"
     ],
     "methodOne": "Koka upp. Häll varm över salladen.",
-    "methodTwo": "Tips: använd dressingen enbart din egenkomponerad kålsallad"
+    "methodTwo": "Tips: Använd dressingen på din egenkomponerad kålsallad."
+  },
+  {
+    "id": "12",
+    "category": "sides",
+    "imageUrl": "/images/sides.jpg",
+    "name": "Tonfiskröra",
+    "description": "Gott till bakad potatis",
+    "history": "",
+    "time": "",
+    "portions": "",
+    "ingredientsOne": [
+      "½ rödlöd",
+      "1 burk tonfisk i vatten(200g)",
+      "½ dl gräddfil",
+      "½ dl majonnäs",
+      "salt, malen vitpeppar"
+    ],
+    "methodOne": "Blanda allt."
+  },
+  {
+    "id": "13",
+    "category": "pastry",
+    "imageUrl": "/images/pastry.jpg",
+    "name": "Mormors tårtbotten",
+    "description": "Släktens tårtrecept",
+    "history": "Min mormor Elsies recept, som blivit många jordgubbstårtor, snurretårtor och chokladtårtor med banan.",
+    "time": "175-200 grader, ca 30 min",
+    "portions": "1 tårta",
+    "ingredientsOne": [
+      "4-5 ägg",
+      "2 ½ dl socker",
+      "3 msk kallt vatten",
+      "ca 1 msk vaniljsocker",
+      "1 dl potatismjöl",
+      "1 ½ dl vetemjöl",
+      "1 ½ tsk bakpulver",
+      "1 krm salt",
+      "ev 2 msk kakao"
+    ],
+    "methodOne": "Blanda äggvitorna till ett hårt skum. Vispa äggulorna, socker, vaniljsocker, salt och vatten ordentligt. Blanda potaitsmjöl, vetemjöl, kakao och bakpulver. Rör i, i äggulesmeten. Tillsätt sist äggviteskummet. Använd smörad och bröad form. 175-200 grader i ca 30 min."
   }
 ]

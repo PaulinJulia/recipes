@@ -1,6 +1,6 @@
 .card-item {
-  margin: 2rem;
-  padding: 1.5rem 1rem;
+  margin: 1.5rem;
+  padding: 1.5rem 0rem;
   list-style: none;
   border-radius: 30px;
   display: flex;
@@ -11,17 +11,15 @@
   cursor: pointer;
 }
 .recipe-image {
-  min-height: 200px;
-  min-width: 180px;
+  height: 200px;
+  width: 200px;
   background-color: var(--off-white);
   margin-bottom: 1rem;
-  padding: 1rem;
 }
 
 .recipe-name {
   background-color: var(--white);
   text-transform: capitalize;
-  padding: 0rem 1rem;
   margin: 1rem;
   font-weight: bold;
 }
@@ -29,4 +27,5 @@
 .recipe-description {
   background-color: var(--white);
   padding: 0rem 1rem;
+  text-align: center;
 }

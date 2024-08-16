@@ -5,7 +5,7 @@ import { Recipe } from "../types/types";
 
 export const SidesRoute = () => {
   const navigate = useNavigate();
-  const sweetsRecipes = recipes.filter((recipe) => recipe.category === "sides");
+  const sidesRecipes = recipes.filter((recipe) => recipe.category === "sides");
 
   const onSelected = (id: string) => {
     navigate(`/sides/${id}`);
@@ -20,7 +20,7 @@ export const SidesRoute = () => {
         esse dicta harum quisquam odit.
       </p>
       <ul>
-        {sweetsRecipes.map((recipe: Recipe) => {
+        {sidesRecipes.map((recipe: Recipe) => {
           return (
             <RecipeItem
               key={recipe.id}

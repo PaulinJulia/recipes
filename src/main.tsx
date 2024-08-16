@@ -47,6 +47,10 @@ const router = createBrowserRouter([
         element: <PastryRoute />,
       },
       {
+        path: "pastry/:recipeId",
+        element: <RecipeInstruction />,
+      },
+      {
         path: "sides",
         element: <SidesRoute />,
       },

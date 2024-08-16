@@ -1,5 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import style from "./RootRoute.module.css";
+import { FaFacebookSquare, FaInstagram, FaSearch } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 
 export default function RootRoute() {
   return (
@@ -33,7 +35,9 @@ export default function RootRoute() {
         <form className={style["search-form"]}>
           <label htmlFor="search"> </label>
           <input type="search" name="search" placeholder="Sök recept" />
-          <button>Sök</button>
+          <button>
+            <FaSearch />
+          </button>
         </form>
       </header>
       <div id="detail">
@@ -41,9 +45,15 @@ export default function RootRoute() {
       </div>
       <footer>
         <ul className={style["social-media"]}>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>LinkedIn</li>
+          <li>
+            <FaInstagram />
+          </li>
+          <li>
+            <FaFacebookSquare />
+          </li>
+          <li>
+            <CiLinkedin />
+          </li>
         </ul>
         <div className={style["contact"]}>
           <p>Om Guldkornen</p>
