@@ -1,5 +1,4 @@
 .card-item {
-  margin: 1.5rem;
   padding: 1.5rem 0rem;
   list-style: none;
   border-radius: 30px;
@@ -9,6 +8,8 @@
   justify-content: center;
   background-color: var(--white);
   cursor: pointer;
+    height: 300px;
+  width: 250px;
 }
 .recipe-image {
   height: 200px;
@@ -19,7 +20,6 @@
 
 .recipe-name {
   background-color: var(--white);
-  text-transform: capitalize;
   margin: 1rem;
   font-weight: bold;
 }

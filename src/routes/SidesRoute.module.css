@@ -1,0 +1,18 @@
+.title {
+  text-align: center;
+  padding: 0rem 2.5rem;
+  margin: 1rem;
+}
+
+.intro-text {
+  text-align: center;
+  padding: 0rem 2.5rem;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2.5rem;
+  margin: 3rem;
+  place-items: center;
+}

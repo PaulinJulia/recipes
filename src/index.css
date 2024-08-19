@@ -2,8 +2,8 @@
   --light-green: #8ea278;
   --dark-green: #3b5726;
   --off-white: #dfe3d5;
-  --sand-brown:#b68051;
-  --dusty-yellow:#d4b950;
+  --sand-brown: #b68051;
+  --dusty-yellow: #d4b950;
   --grey-white: rgb(233, 232, 232);
   --white: rgb(248, 244, 244);
   --black: rgb(25, 24, 24);
@@ -18,10 +18,10 @@
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
-  width: 100%;
+  min-height: 100vh;
   justify-content: center;
 }
 

@@ -16,27 +16,6 @@
   color: var(--sand-brown);
 }
 
-.title {
-  text-align: center;
-  color: var(--dusty-yellow);
-  text-shadow: rgb(255, 229, 125) 1px 0 10px;
-  font-size: 3rem;
-}
-
-.title-description {
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  text-align: center;
-}
-
-.search-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-}
-
 .social-media {
   display: flex;
   justify-content: center;

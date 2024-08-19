@@ -26,19 +26,6 @@ export default function RootRoute() {
             </li>
           </ul>
         </nav>
-        <Link to="/">
-          <h1 className={style["title"]}>Guldkornen</h1>
-        </Link>
-        <h2 className={style["title-description"]}>
-          En receptsamling över flera generationer.
-        </h2>
-        <form className={style["search-form"]}>
-          <label htmlFor="search"> </label>
-          <input type="search" name="search" placeholder="Sök recept" />
-          <button>
-            <FaSearch />
-          </button>
-        </form>
       </header>
       <div id="detail">
         <Outlet />
