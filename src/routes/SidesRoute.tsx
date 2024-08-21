@@ -13,7 +13,7 @@ export const SidesRoute = () => {
   };
   return (
     <main>
-      <h2 className={style["title"]}>Tillbehör</h2>
+      <h2 className={style["title"]}>Tillbehör och såser</h2>
       <p className={style["intro-text"]}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
         dignissimos nisi exercitationem accusantium sequi debitis? Iusto

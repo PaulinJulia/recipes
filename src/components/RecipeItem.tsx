@@ -14,7 +14,7 @@ export const RecipeItem = ({ recipe, onSelected }: RecipeItemProps) => {
 
   return (
     <>
-      <li className={style["card-item"]} onClick={handleSelected}>
+      <li className={style["card-item"]} title={recipe.name} onClick={handleSelected}>
         <img
           src={recipe.imageUrl}
           className={style["recipe-image"]}

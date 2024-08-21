@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import style from "./RootRoute.module.css";
-import { FaFacebookSquare, FaInstagram, FaSearch } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram, FaSeedling } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 
 export default function RootRoute() {
@@ -10,19 +10,34 @@ export default function RootRoute() {
         <nav>
           <ul className={style["link-wrapper"]}>
             <li>
-              <Link to="/sweets">Kakor</Link>
+              <Link to="/" title="Home">
+                <FaSeedling />
+              </Link>
             </li>
             <li>
-              <Link to="/food">Mat</Link>
+              <Link to="/sweets" title="Kakor">
+                Kakor
+              </Link>
             </li>
             <li>
-              <Link to="/bread">Bröd</Link>
+              <Link to="/food" title="Mat">
+                Mat
+              </Link>
             </li>
             <li>
-              <Link to="/pastry">Bakverk</Link>
+              <Link to="/bread" title="Bröd">
+                Bröd
+              </Link>
             </li>
             <li>
-              <Link to="sides">Tillbehör</Link>
+              <Link to="/pastry" title="Bakverk">
+                Bakverk
+              </Link>
+            </li>
+            <li>
+              <Link to="sides" title="Tillbehör">
+                Tillbehör
+              </Link>
             </li>
           </ul>
         </nav>
