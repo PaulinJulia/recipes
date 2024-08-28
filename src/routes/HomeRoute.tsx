@@ -47,7 +47,7 @@ export const HomeRoute = () => {
         <h1 className={style["title"]}>Guldkornen</h1>
       </Link>
       <h2 className={style["title-description"]}>
-        En receptsamling över flera generationer.
+        En receptsamling över generationer.
       </h2>
       <form className={style["search-form"]} onSubmit={handleSubmit}>
         <label htmlFor="search"> </label>
