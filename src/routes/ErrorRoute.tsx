@@ -9,10 +9,7 @@ export default function ErrorRoute() {
       <h1>Error</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p>
-        <i>
-          {(error as ErrorResponse).statusText ||
-            (error as ErrorResponse).message}
-        </i>
+        <i>{(error as ErrorResponse).statusText}</i>
       </p>
       <Link to={"/"}>Tillbaka till startsida</Link>
     </main>
