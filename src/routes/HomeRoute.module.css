@@ -32,16 +32,19 @@
   border-radius: 4rem;
   border-style: none;
   font-size: 1rem;
-  background-color: none;
+  background-color: var(--grey-white);
 }
 .search-input:focus {
   outline: none;
   border: none;
-  background-color: none;
+  background-color: var(--grey-white);
 }
 
 .search-input:active {
-  background-color: none;
+  background-color: var(--grey-white);
+}
+.search-input:-webkit-autofill:focus {
+  background-color: var(--grey-white);
 }
 
 .search-button {

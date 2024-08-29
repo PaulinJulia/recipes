@@ -8,48 +8,49 @@ import { FormEvent, useState } from "react";
 
 export const HomeRoute = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const [allrecipes, setRecipes] = useState<Recipe[]>([]);
   const navigate = useNavigate();
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // const formData = new FormData(e.currentTarget);
-    // const searchTerm = formData.get("search") as string;
-    // setSearchTerm(searchTerm);
     const searchedRecipe = recipes.filter((recipe) =>
       recipe.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
     );
-    console.log(searchedRecipe);
-    setSearchTerm("");
-    return (
-      <>
-        <ul className={style["card-wrapper"]}>
-          {searchedRecipe.map((recipe: Recipe) => {
-            return (
-              <RecipeItem
-                key={recipe.id}
-                recipe={recipe}
-                onSelected={onSelected}
-              />
-            );
-          })}
-        </ul>
-      </>
+
+    const remainingRecipes = recipes.filter(
+      (recipe) =>
+        !recipe.name
+          .toLocaleLowerCase()
+          .includes(searchTerm.toLocaleLowerCase())
     );
+
+    const sortedRecipes = [...searchedRecipe, ...remainingRecipes];
+    setRecipes(sortedRecipes);
+    setSearchTerm("");
   };
+
+  const resetSearch = () => {
+    setRecipes([]);
+  };
+
   const onSelected = (id: string) => {
     navigate(`recipes/${id}`);
   };
 
   return (
     <main>
-      <Link to="/">
-        <h1 className={style["title"]}>Guldkornen</h1>
-      </Link>
+      <h1 className={style["title"]} onClick={resetSearch}>
+        Guldkornen
+      </h1>
       <h2 className={style["title-description"]}>
         En receptsamling över generationer.
       </h2>
-      <form className={style["search-form"]} onSubmit={handleSubmit}>
+      <form
+        autoComplete="off"
+        className={style["search-form"]}
+        onSubmit={handleSubmit}
+      >
         <label htmlFor="search"> </label>
         <div className={style["input-wrapper"]}>
           <input
@@ -66,15 +67,17 @@ export const HomeRoute = () => {
         </div>
       </form>
       <ul className={style["card-wrapper"]}>
-        {recipes.map((recipe: Recipe) => {
-          return (
-            <RecipeItem
-              key={recipe.id}
-              recipe={recipe}
-              onSelected={onSelected}
-            />
-          );
-        })}
+        {(allrecipes.length > 0 ? allrecipes : recipes).map(
+          (recipe: Recipe) => {
+            return (
+              <RecipeItem
+                key={recipe.id}
+                recipe={recipe}
+                onSelected={onSelected}
+              />
+            );
+          }
+        )}
       </ul>
     </main>
   );
