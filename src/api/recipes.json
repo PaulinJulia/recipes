@@ -294,5 +294,87 @@
       "ev 2 msk kakao"
     ],
     "methodOne": "Blanda äggvitorna till ett hårt skum. Vispa äggulorna, socker, vaniljsocker, salt och vatten ordentligt. Blanda potaitsmjöl, vetemjöl, kakao och bakpulver. Rör i, i äggulesmeten. Tillsätt sist äggviteskummet. Använd smörad och bröad form. 175-200 grader i ca 30 min."
+  },
+  {
+    "id": "14",
+    "category": "food",
+    "imageUrl": "/images/food.jpg",
+    "name": "Kalops",
+    "description": "Klassisk och enkel.",
+    "history": "",
+    "time": "Tillagningstid 2 timmar",
+    "portions": "5-6 port",
+    "ingredientsOne": [
+      "ca 1 kg nötkött med ben eller 500-600g grytbitar",
+      "2 msk smör",
+      "10 kryddpepparkorn",
+      "1 ½ tsk salt",
+      "2 lagerblad",
+      "5 dl vatten",
+      "3-4 morötter",
+      "1 purjolök eller 2-3 gula lökar",
+      "3 msk vetemjöl",
+      "½-1 dl vatten"
+    ],
+    "methodOne": "Skär köttet i bitar, ta vara på benen. Bryn köttet, uppdelat i omgångar, i en stekpanna. Lägg över det i en gryta tillsammans med salt, kryddor och ev. ben. Vispa ur stekpannan med en del av vattnet, häll skyn i grytan. Koka under lock på svag värme 45-60min, den längre tiden för bringa och ytterlår. Späd ev med resten av vattnet. Skala under tiden morötterna. Snitta och skölj purjon eller skala löken. SKär grönskaerna i skivor eller bitar. Lägg dem i kötgrytan, först morötterna, efter ev. 10 min purjo eller lök. Koka tills morötterna är nätt och jämnt mjuka, ytterligare 10-15 min. Rör till sist ut mjölet med vattnet till en slät redning, rör ned den och koka 3-4 min.",
+    "methodTwo": "Till: kokt potatis, inlagda rödbetor eller en råkostsallad."
+  },
+  {
+    "id": "15",
+    "category": "bread",
+    "imageUrl": "/images/bread.jpg",
+    "name": "Nattjästa frallor",
+    "description": "Perfekt för dig som vill ha nybakt bröd till frukost. Förbered kvällen innan, släng in i ugnen på morgonen.",
+    "history": "",
+    "time": "250 grader, 30 min och jäsning över natten",
+    "portions": "ca 12 frallor",
+    "ingredientsOne": [
+      "0,5 l vatten(rumstempererat)",
+      "25 gr jäst",
+      "2 tsk salt",
+      "1 tsk olivolja",
+      "11 dl vetemjöl"
+    ],
+    "methodOne": "Lös jästen i vattnet. Tillsätt salt och lös även det. Ha därefter i olivolja och vetemjöl. Rör till en lös deg. Täck bunken och ställ in i kylen över natten. På morgonen stjäler man upp degen på mjölad yta och delar den i lagom stora bitar. Grädda i 250 grader tills frallorna fått ordentligt med färg."
+  },
+  {
+    "id": "16",
+    "category": "pastry",
+    "imageUrl": "/images/pastry.jpg",
+    "name": "Hemlig kladdkaka",
+    "description": "En spännande variant på kladdkaka",
+    "history": "Ibland söker man efter ett nyttigare alternativ.",
+    "time": "180 grader, ca 15 min",
+    "portions": "1 kladdkaka",
+    "ingredientsOne": [
+      "400 g svarta bönor, kokta på burk",
+      "1 dl havregryn",
+      "2 msk kakao",
+      "3 msk kokosolja, Gärna med smak",
+      "1 tsk bakpulver",
+      "70 g agavesirap, 70g agavesirap är ungefär ½ dl",
+      "4 msk havregrädde",
+      "ev. 1 dl paranötter, hackade"
+    ],
+    "methodOne": "Sätt ugnen på 180 grader och mixa bönorna. Häll ner resten av ingredienserna utom nötterna. Mixa till en slät smet. Vänd ner paranötterna i smeten. Smörj en form med kokosolja, och strö med lite kokosflingor, om du vill. Bred ut smeten i formen och grädda i mitten i ugnen i cirka 15 minuter.",
+    "methodTwo": "Tips! Smält cirka 50 gram choklad (70 %) och pensla över kakan när den har svalnat. Låt chokladen stelna och skär sedan i bars. Perfekt till eftermiddagsfikat eller när du bara är sugen."
+  },
+  {
+    "id": "17",
+    "category": "sweets",
+    "imageUrl": "/images/sweets.jpg",
+    "name": "Annorlunda Chokladbollar",
+    "description": "En nyttig variant.",
+    "history": "Ibland söker man efter ett nyttigare alternativ.",
+    "time": "",
+    "portions": "ca 11-12 bollar",
+    "ingredientsOne": [
+      "250 g rå sötpotatis(ca 225 g kokt)",
+      "5 färska dadlar",
+      "2 msk kakao",
+      "2 dl mandelmjöl",
+      "kokosflingor att rulla i"
+    ],
+    "methodOne": "Skala och skär sötpotatisen i små bitar. Mikra sötpotatisen på full effekt i ca 5 min, tills den blivit mjuk. Låt svalna. Mixa sötpotatisen tillsammans med färska urkärnade dadlar till en massa. Blanda sedan ihop alla ingredienser till en chokladig smet. Forma bollar av smeten och rulla dem i kokos."
   }
 ]
