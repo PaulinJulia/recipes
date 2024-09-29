@@ -376,5 +376,32 @@
       "kokosflingor att rulla i"
     ],
     "methodOne": "Skala och skär sötpotatisen i små bitar. Mikra sötpotatisen på full effekt i ca 5 min, tills den blivit mjuk. Låt svalna. Mixa sötpotatisen tillsammans med färska urkärnade dadlar till en massa. Blanda sedan ihop alla ingredienser till en chokladig smet. Forma bollar av smeten och rulla dem i kokos."
+  },
+  {
+    "id": "18",
+    "category": "food",
+    "imageUrl": "/images/food.jpg",
+    "name": "Köttfärssoppa",
+    "description": "En mustig och välsmakande köttfärssoppa med potatis.",
+    "history": "",
+    "time": "Tillagningstid ca 40 min",
+    "portions": "4 port",
+    "ingredientsOne": [
+      "1 gul lök",
+      "3 vitlöksklyftor",
+      "1 röd paprika",
+      "1 bakpotatis",
+      "2 msk smör",
+      "500 g köttfärs",
+      "3 msk tomatpuré",
+      "1 msk paprikapulver",
+      "1 msk torkad rosmarin",
+      "1 burk krossade tomater",
+      "1 l vatten",
+      "2 dl vispgrädde",
+      "2 tärningar hönsbuljong",
+      "salt och peppar"
+    ],
+    "methodOne": "Skala och finhacka lök och vitlök. Tärna paprika och potatis. Hetta upp smör i en rymlig kastrull. Fräs lök och vitlök 3-4 min. Tillsätt färs, tomatpuré och kryddor. Fräs ytterligare 5 min under omrörning. Häll på tomater, vatten och grädde. Lägg i paprika och potatis och smula ner buljongtärningarna. Koka upp och låt koka ca 10 min eller tills potatisen är klar. Smaka av med salt och peppar."
   }
 ]

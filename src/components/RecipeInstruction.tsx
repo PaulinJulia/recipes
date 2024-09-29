@@ -29,8 +29,8 @@ export const RecipeInstruction = () => {
         <p>{recipe.time}</p>
         <p>{recipe.portions}</p>
       </div>
+      <p className={style["title-ingredients"]}>Ingredienser:</p>
       <div className={style["ingredients-wrapper"]}>
-        <p>Ingredienser:</p>
         <ul className={style["ingredients"]}>
           {recipe.ingredientsOne.map((ingredientsOne) => (
             <li key={ingredientsOne}>{ingredientsOne}</li>
@@ -47,8 +47,8 @@ export const RecipeInstruction = () => {
           ))}
         </ul>
       </div>
+      <p className={style["title-method"]}>Gör så här:</p>
       <div className={style["method-wrapper"]}>
-        <p>Gör så här:</p>
         <p>{recipe.methodOne}</p>
         <p>{recipe.methodTwo}</p>
       </div>
