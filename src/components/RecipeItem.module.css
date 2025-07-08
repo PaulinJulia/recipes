@@ -16,6 +16,7 @@
   width: 200px;
   background-color: var(--off-white);
   margin-bottom: 1rem;
+  object-fit: cover;
 }
 
 .recipe-name {

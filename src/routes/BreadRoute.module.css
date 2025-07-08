@@ -12,7 +12,13 @@
 .card-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 2.5rem;
+  grid-gap: 2rem;
   margin: 3rem;
   place-items: center;
+}
+
+@media (min-width: 768px) {
+  .card-wrapper {
+    grid-gap: 4rem;
+  }
 }
