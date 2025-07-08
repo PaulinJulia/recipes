@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Recipes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun web application for collecting and sharing my favorite recipes, some passed down through generations! This project is a personal collection of dishes I love, from family classics to new favorites. Built for fun and inspiration. Enjoy cooking and exploring!
 
-Currently, two official plugins are available:
+## Visuals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Start page](/public/images/guldkornen.png "Start page")
 
-## Expanding the ESLint configuration
+## How to install
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+node.js - https://nodejs.org/en/download  
+npm - https://www.npmjs.com/
 
-- Configure the top-level `parserOptions` property like this:
+```
+git clone https://github.com/PaulinJulia/recipes
+cd recipes
+npm install
+npm run dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## About
+This project is for personal and educational use.
+
+## Support
+
+email: paulinjulia@gmail.com
