@@ -8,7 +8,7 @@
   justify-content: center;
   background-color: var(--white);
   cursor: pointer;
-    height: 300px;
+  height: 300px;
   width: 250px;
 }
 .recipe-image {
@@ -23,6 +23,10 @@
   background-color: var(--white);
   margin: 1rem;
   font-weight: bold;
+}
+
+.recipe-name:hover {
+  text-decoration: underline;
 }
 
 .recipe-description {
