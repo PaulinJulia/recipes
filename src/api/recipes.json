@@ -403,5 +403,25 @@
       "salt och peppar"
     ],
     "methodOne": "Skala och finhacka lök och vitlök. Tärna paprika och potatis. Hetta upp smör i en rymlig kastrull. Fräs lök och vitlök 3-4 min. Tillsätt färs, tomatpuré och kryddor. Fräs ytterligare 5 min under omrörning. Häll på tomater, vatten och grädde. Lägg i paprika och potatis och smula ner buljongtärningarna. Koka upp och låt koka ca 10 min eller tills potatisen är klar. Smaka av med salt och peppar."
+  },
+  {
+    "id": "19",
+    "category": "pastry",
+    "imageUrl": "/images/pastry.jpg",
+    "name": "Semlor",
+    "description": "Vanliga semlor med mandelmassa och grädde",
+    "history": "",
+    "time": "225 grader, ca 2h inkl jäsning",
+    "portions": "26 st",
+    "ingredientsOne": [
+      "150 g smör",
+      "5 dl mjölk",
+      "50 g jäst",
+      "1,5 dl socker",
+      "2 tsk stött kardemumma",
+      "0,5 tsk salt",
+      "15 dl vetemjöl"
+    ],
+    "methodOne": "Smält smöret. Tillsätt mjölken och värm till 37 grader. Smulla ner jästen i en bunke och häll över degspadet. Rör tills jästen löst sig. Tilsätt socker, kardemumma, salt och nästan allt vetemjöl(spara lite till utbakningen). Arbeta ihop till en deg ock knåda den ca 5 min i köksassistent eller 10 min förhand. Låt degen jäsa övertäck ca 40 min. Ta upp degen på mjölad arbetsbänk och dela i 26 bitar. Rulla till runda bullar och lägg dem på plåtar med bakplåtspapper. Låt jäsa övertäckta ca 30 min. Sätt ugnen på 225 grader. Grädda bullarna i mitten av ugnen ca 10 min tills de har blivit gyllenbruna. Låt kallna på galler."
   }
 ]
