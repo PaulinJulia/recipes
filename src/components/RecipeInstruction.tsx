@@ -29,29 +29,31 @@ export const RecipeInstruction = () => {
         <p>{recipe.time}</p>
         <p>{recipe.portions}</p>
       </div>
-      <p className={style["title-ingredients"]}>Ingredienser:</p>
-      <div className={style["ingredients-wrapper"]}>
-        <ul className={style["ingredients"]}>
-          {recipe.ingredientsOne.map((ingredientsOne) => (
-            <li key={ingredientsOne}>{ingredientsOne}</li>
-          ))}
-        </ul>
-        <ul className={style["ingredients"]}>
-          {recipe.ingredientsTwo?.map((ingredientsTwo) => (
-            <li key={ingredientsTwo}>{ingredientsTwo}</li>
-          ))}
-        </ul>
-        <ul className={style["ingredients"]}>
-          {recipe.ingredientsThree?.map((ingredientsThree) => (
-            <li key={ingredientsThree}>{ingredientsThree}</li>
-          ))}
-        </ul>
-      </div>
-      <p className={style["title-method"]}>Gör så här:</p>
-      <div className={style["method-wrapper"]}>
-        <p>{recipe.methodOne}</p>
-        <p>{recipe.methodTwo}</p>
-      </div>
+      <section className={style["ingredients-section"]}>
+        <p className={style["title-ingredients"]}>Ingredienser:</p>
+        <div className={style["ingredients-wrapper"]}>
+          <ul className={style["ingredients"]}>
+            {recipe.ingredientsOne.map((ingredientsOne) => (
+              <li key={ingredientsOne}>{ingredientsOne}</li>
+            ))}
+          </ul>
+          <ul className={style["ingredients"]}>
+            {recipe.ingredientsTwo?.map((ingredientsTwo) => (
+              <li key={ingredientsTwo}>{ingredientsTwo}</li>
+            ))}
+          </ul>
+          <ul className={style["ingredients"]}>
+            {recipe.ingredientsThree?.map((ingredientsThree) => (
+              <li key={ingredientsThree}>{ingredientsThree}</li>
+            ))}
+          </ul>
+        </div>
+        <p className={style["title-method"]}>Gör så här:</p>
+        <div className={style["method-wrapper"]}>
+          <p>{recipe.methodOne}</p>
+          <p>{recipe.methodTwo}</p>
+        </div>
+      </section>
     </main>
   );
 };
