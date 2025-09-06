@@ -54,3 +54,9 @@
   font-size: 1.2rem;
   line-height: 130%;
 }
+
+@media (max-width: 768px) {
+  .ingredients-section {
+    margin: 1rem 2rem;
+  }
+}
