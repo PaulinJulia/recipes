@@ -47,13 +47,13 @@ export default function RootRoute() {
       </div>
       <footer>
         <ul className={style["social-media"]}>
-          <li>
+          <li title="Instagram">
             <FaInstagram />
           </li>
-          <li>
+          <li title="Facebook">
             <FaFacebookSquare />
           </li>
-          <li>
+          <li title="LinkedIn">
             <CiLinkedin />
           </li>
         </ul>
