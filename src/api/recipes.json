@@ -423,5 +423,32 @@
       "15 dl vetemjöl"
     ],
     "methodOne": "Smält smöret. Tillsätt mjölken och värm till 37 grader. Smulla ner jästen i en bunke och häll över degspadet. Rör tills jästen löst sig. Tilsätt socker, kardemumma, salt och nästan allt vetemjöl(spara lite till utbakningen). Arbeta ihop till en deg ock knåda den ca 5 min i köksassistent eller 10 min förhand. Låt degen jäsa övertäck ca 40 min. Ta upp degen på mjölad arbetsbänk och dela i 26 bitar. Rulla till runda bullar och lägg dem på plåtar med bakplåtspapper. Låt jäsa övertäckta ca 30 min. Sätt ugnen på 225 grader. Grädda bullarna i mitten av ugnen ca 10 min tills de har blivit gyllenbruna. Låt kallna på galler."
+  },
+  {
+    "id": "20",
+    "category": "food",
+    "imageUrl": "/images/food.jpg",
+    "name": "Gulasch på högrev och potatis",
+    "description": "En riktigt mustig gryta.",
+    "history": "",
+    "time": "225 grader, ca 2h inkl jäsning",
+    "portions": "",
+    "ingredientsOne": [
+      "600 g högrev",
+      "4 st schalottenlökar",
+      "3 st röda paprikor",
+      "1 st röd peppar(chili)",
+      "2 tsk hela kumminfrön",
+      "2 msk olja",
+      "4 st vitlöksklyftor",
+      "1 msk paprikapulver",
+      "3 msk konc kalvfond",
+      "5 dl vatten",
+      "6 st medelstora potatisar(ca 700g)",
+      "4 msk tomatpuré",
+      "salt & peppar"
+    ],
+    "methodOne": "Skär köttet i ca 4 cm stora bitar. Skala löken och skör i grova bitar. Dela, ta bort kärnorna och skär paprikan i bitar. Dela, ta bort kärnorna och finhacka chilin. Mortla kumminen. Bryn köttet i olijan i en stor gryta. När köttet fått fin färg lägg ner lök, pressad vitlök och chili. Fräs tills löken är genomskinlig. Tillsätt hälften av paprikan och stek i ca 5 min utan omrörning. Tillsätt kummin, paprikapulver, kalvfond och vatten. Lät sjuda under lock i ca 1 ½ timme. Skala och skär potatisen i bitar, ca 3 cm stora. Tillsätt potatis, tomatpuré och resten av paprikan. Rör om och låt sjuda i ca 30 min. Smaka av med salt och peppar.",
+    "methodTwo": "Tips! Servera med yoghurt eller gräddfil och lite färsk timjan."
   }
 ]
