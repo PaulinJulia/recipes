@@ -450,5 +450,26 @@
     ],
     "methodOne": "Skär köttet i ca 4 cm stora bitar. Skala löken och skör i grova bitar. Dela, ta bort kärnorna och skär paprikan i bitar. Dela, ta bort kärnorna och finhacka chilin. Mortla kumminen. Bryn köttet i olijan i en stor gryta. När köttet fått fin färg lägg ner lök, pressad vitlök och chili. Fräs tills löken är genomskinlig. Tillsätt hälften av paprikan och stek i ca 5 min utan omrörning. Tillsätt kummin, paprikapulver, kalvfond och vatten. Lät sjuda under lock i ca 1 ½ timme. Skala och skär potatisen i bitar, ca 3 cm stora. Tillsätt potatis, tomatpuré och resten av paprikan. Rör om och låt sjuda i ca 30 min. Smaka av med salt och peppar.",
     "methodTwo": "Tips! Servera med yoghurt eller gräddfil och lite färsk timjan."
+  },
+  {
+    "id": "20",
+    "category": "pastry",
+    "imageUrl": "/images/pastry.jpg",
+    "name": "Kladdmuffins",
+    "description": "Som kladdkaka men muffins",
+    "history": "",
+    "time": "225 grader, ca 8-10 min",
+    "portions": "16 muffins",
+    "ingredientsOne": [
+      "2 ägg",
+      "2 dl socker",
+      "1 ½ dl vetemjöl",
+      "2 tsk vaniljsocker",
+      "4 msk kakao",
+      "1 krm salt",
+      "100 g smält matfett"
+    ],
+    "methodOne": "Sätt ugnen på 225 grder. Rör ihop ägg och socker(vispa ej). Blanda de torra ingredienserna och rör sedan ner det i äggblandningen. Rör ner det smälta matfettet. Klicka ner smeten i små miffinsformar. Grädda i nedre delen av ugnen ca 8-10 minuter.",
+    "methodTwo": "Tips! Servera med glass, sorbet, grädde eller bara kalla."
   }
 ]
