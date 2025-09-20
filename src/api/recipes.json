@@ -452,9 +452,9 @@
     "methodTwo": "Tips! Servera med yoghurt eller gräddfil och lite färsk timjan."
   },
   {
-    "id": "20",
-    "category": "pastry",
-    "imageUrl": "/images/pastry.jpg",
+    "id": "21",
+    "category": "sweets",
+    "imageUrl": "/images/sweets.jpg",
     "name": "Kladdmuffins",
     "description": "Som kladdkaka men muffins",
     "history": "",
