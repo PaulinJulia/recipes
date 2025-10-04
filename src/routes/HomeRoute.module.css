@@ -65,12 +65,14 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 2rem;
-  margin: 3rem;
+  padding: 2rem;
   place-items: center;
 }
 
 @media (min-width: 768px) {
   .card-wrapper {
     grid-gap: 4rem;
+    max-width: 60%;
+    margin: 1rem auto;
   }
 }
