@@ -471,5 +471,22 @@
     ],
     "methodOne": "Sätt ugnen på 225 grder. Rör ihop ägg och socker(vispa ej). Blanda de torra ingredienserna och rör sedan ner det i äggblandningen. Rör ner det smälta matfettet. Klicka ner smeten i små miffinsformar. Grädda i nedre delen av ugnen ca 8-10 minuter.",
     "methodTwo": "Tips! Servera med glass, sorbet, grädde eller bara kalla."
+  },
+  {
+    "id": "22",
+    "category": "pastry",
+    "imageUrl": "/images/pastry.jpg",
+    "name": "Mormor Elsies Äppelkaka",
+    "description": "En äppelkaka med tradition att ätas på julafton.",
+    "history": "",
+    "time": "175 grader, ca 60-70 min",
+    "portions": "Lagom sats till ovala kopparformen",
+    "ingredientsOne": [
+      "1,9kg = 1,7 liter äppelmos(om den är lättsockrad, tillsätt lite socker)",
+      "5 dl skorpsmulor",
+      "1-1 ½ dl mannagryn"
+    ],
+    "methodOne": "Smörj och bröa formen. Grädda i 175 grader, 60-70 min.",
+    "methodTwo": " Slå av ugnen och låt den stå kvar och 'gosa sig', gärna över natten."
   }
 ]
